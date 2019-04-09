@@ -1,0 +1,67 @@
+.flatpickr-weekdaycontainer {
+  width: 315px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.flatpickr-input{
+  width: 100%;
+  padding: 0px 7px;
+  border: 1px solid #dcdee2;
+  border-radius: 4px;
+  color: #515a6e;
+}
+.flatpickr-time{
+    display: none
+}
+.flatpickr-calendar{
+  width: 415px;
+}
+
+.flatpickr-rDateContainer {
+  width: 100px;
+}
+.flatpickr-rDateContainer-header{
+  height: 28px;
+  width: 80px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 90%;
+  background: transparent;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.54);
+}
+.flatpickr-rDateContainer-content{
+  height: 240px;
+  /* height: 80px; */
+  box-sizing: border-box;
+  /* padding-right: 20px; */
+  overflow-y: auto
+}
+.flatpickr_times_li_container{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #393939;
+  cursor: pointer;
+}
+/* 更改placeholder颜色 */
+.flatpickr_times_li_container.active{
+  background: #569ff7;
+  border-color: #569ff7;
+  color: #fff;
+}
+.flatpickr-input.input::-webkit-input-placeholder {
+  color: #d0c8d7;
+}
+
+.flatpickr-input.input:-moz-placeholder {
+  color: #d0c8d7;
+}
+
+.flatpickr-input.input:-ms-input-placeholder {
+  color: #d0c8d7;
+}

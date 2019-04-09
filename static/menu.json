@@ -1,0 +1,24 @@
+{
+	"code": "000000",
+	"msg": "成功",
+	"description": null,
+	"data": [{
+			"name": "countInfo",
+			"children": [{
+				"name": "countInfo_page",
+			}]
+		},
+		{
+			"name": "meetInfo",
+			"children": [{
+				"name": "basicInfo",
+			}]
+		},
+		{
+			"name": "receptionManage",
+			"children": [{
+				"name": "houseReception",
+			}]
+		}
+	]
+}
